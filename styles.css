@@ -16,28 +16,29 @@ button {
     background-color:red;
     height: 20px;
     width:50px;
-    position: relative;
+    position: absolute;
 }
 
 .copcar {
     background-color:blue;
     width: 20px;
     height: 50px;
-    position: relative;
+    position: absolute;
+    animation: blinker 0.5s linear infinite;
 }
 
 .motorcycle {
     background-color: orange;
     height:20px;
-    width:10px;
-    position: relative;
+    width:40px;
+    position: absolute;
 }
 
 .tank{
     background-color: green;
     height: 50px;
     width: 75px;
-    position: relative;
+    position: absolute;
 }
 
 body.noscroll {
@@ -46,6 +47,6 @@ body.noscroll {
     width: 100%;
 }
 
-abc{
-    
+@keyframes blinker {  
+  50% { opacity: 0.0; }
 }
