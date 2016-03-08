@@ -104,3 +104,5 @@ Use jquery to add animation and interact with the vehicles. The vehicles should 
 **Hints/Suggestions**
 * Before worrying about detecting whether vehicles have collided, just make it where when you click on a vehicle on the screen it calls `damage()` on that vehicle. Once you get that working (and the car is removed once the damage threshold is reached), then you can attempt having it automatically damage when Vehicles collide on the screen
 * `damage()` can be a function on the Vehicle super class that just increments the damage value by 1, and checks to see if it should call `remove()`.
+
+abc
